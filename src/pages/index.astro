@@ -2,7 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
-import heroPhoto from '../assets/photo.jpeg';
+import heroPhoto from '../assets/photo.png';
 
 const translations = {
   greeting: { 
@@ -10,32 +10,32 @@ const translations = {
     es: "Hola, soy" 
   },
   name: { 
-    en: "Javier Castillo", 
-    es: "Javier Castillo" 
+    en: "David Caicedo", 
+    es: "David Caicedo" 
   },
   description: { 
-    en: "Technologist in Information Systems and Full Stack Developer with more than 2 years of experience, specialized in creating modern, scalable and user-centered solutions.", 
-    es: "Tecnólogo en Sistemas de información y Desarrollador Full Stack con más de 2 años de experiencia, especializado en crear soluciones modernas, escalables y centradas en el usuario." 
+    en: "Systems Engineering student in the fifth semester, with an interest in software development and skills in programming, problem-solving, and continuous learning.", 
+    es: "Estudiante de Ingenieria de Sistemas cursando el quinto semestre, con interés en el desarrollo de software y habilidades en programación, resolución de problemas y aprendizaje continuo." 
   },
   availability: {
-    en: "Open to work",
-    es: "Disponible para trabajar"
+    en: "Willing to learn",
+    es: "Dispuesto a aprender"
   },
   viewProjects: { 
-    en: "View Projects", 
-    es: "Ver Proyectos" 
+    en: "View Evidences", 
+    es: "Ver Evidencias" 
   },
   getInTouch: { 
-    en: "Get in Touch", 
-    es: "Contactar" 
+    en: "Profile", 
+    es: "Presentación" 
   },
   about: { 
     en: "About Me", 
     es: "Sobre mí" 
   },
   aboutDesc: {
-    es: "Soy Desarrollador Full Stack con experiencia en la creación de aplicaciones web completas, desde el diseño de la arquitectura hasta la implementación y despliegue. Trabajo integrando APIs, bases de datos y servicios modernos, con foco en rendimiento, mantenibilidad y experiencia de usuario. Me adapto bien a equipos colaborativos, sigo buenas prácticas de desarrollo y busco entregar soluciones estables que aporten valor real al negocio. Estoy interesado en oportunidades remotas o híbridas donde pueda seguir creciendo profesionalmente y contribuir a proyectos bien estructurados.",
-    en: "I am a Full Stack Developer with experience building end-to-end web applications, from architecture design to implementation and deployment. I work integrating APIs, databases, and modern services, with a focus on performance, maintainability, and user experience. I adapt well to collaborative teams, follow development best practices, and aim to deliver stable solutions that bring real business value. I am interested in remote or hybrid opportunities where I can continue growing professionally and contribute to well-structured projects."
+    es: "Soy estudiante de Ingeniería de Sistemas en la Universidad El Bosque, con participación en el desarrollo de pequeños proyectos académicos enfocados en la creación de soluciones de software. Me destaco por mis habilidades para el trabajo en equipo, la comunicación y la resolución de problemas, así como por una fuerte motivación por aprender y mejorar continuamente. Estoy interesado en seguir fortaleciendo mis conocimientos y adquirir experiencia práctica que me permita crecer profesionalmente y aportar valor en entornos colaborativos.",
+    en: "I am a Systems Engineering student at Universidad El Bosque, participating in the development of small academic projects focused on creating software solutions. I excel in teamwork, communication, and problem-solving, as well as possessing a strong motivation to learn and continuously improve. I am interested in further developing my knowledge and gaining practical experience that will allow me to grow professionally and contribute to collaborative environments."
   },
   tech: { 
     en: "Tech Stack", 
@@ -45,7 +45,7 @@ const translations = {
 
 ---
 
-<Layout title={`Home | Javier Castillo`}>
+<Layout title={`Home | David Caicedo`}>
 	<Header />
 	
 	<main class="min-h-screen px-4 sm:px-6 md:px-6">
@@ -53,7 +53,7 @@ const translations = {
 			<div class="flex flex-col items-center gap-6 sm:gap-8 text-center">
 				<div class="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4">
 					<div class="w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32 rounded-full bg-gray-100 dark:bg-gray-800 border-2 border-gray-300 dark:border-gray-600 flex items-center justify-center overflow-hidden animated-border always-visible flex-shrink-0 shadow-lg dark:shadow-white/20">
-						<img src={heroPhoto.src} alt="Javier Castillo" class="w-full h-full object-cover" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" />
+						<img src={heroPhoto.src} alt="David Caicedo" class="w-full h-full object-cover" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" />
 						<span class="text-2xl sm:text-3xl md:text-4xl text-gray-500 dark:text-gray-400 hidden">📷</span>
 					</div>
 					<div class="animated-border always-visible px-3 sm:px-4 py-2 rounded-full border border-gray-300 dark:border-gray-600 h-fit">
@@ -65,8 +65,8 @@ const translations = {
 					<h1 class="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4 sm:mb-6 px-2 sm:px-0" data-en={translations.name.en} data-es={translations.name.es}>
 						{translations.name.en}
 					</h1>
-					<p class="text-sm sm:text-base text-gray-600 dark:text-gray-400 max-w-lg mx-auto mb-4 sm:mb-6 px-2 sm:px-0" data-en="Technologist in Information Systems and Full Stack Developer with more than 2 years of experience, specialized in creating modern, scalable and user-centered solutions." data-es="Tecnólogo en Sistemas de información y Desarrollador Full Stack con más de 2 años de experiencia, especializado en crear soluciones modernas, escalables y centradas en el usuario.">
-						<span class="font-semibold text-gray-900 dark:text-white">Technologist in Information Systems</span> and <span class="font-semibold text-gray-900 dark:text-white">Full Stack Developer</span> with more than 2 years of experience, specialized in creating modern, scalable and user-centered solutions.
+					<p class="text-sm sm:text-base text-gray-600 dark:text-gray-400 max-w-lg mx-auto mb-4 sm:mb-6 px-2 sm:px-0" data-en="Systems Engineering student in the fifth semester, with an interest in software development and skills in programming, problem-solving, and continuous learning." data-es="Estudiante de Ingenieria de Sistemas cursando el quinto semestre, con interés en el desarrollo de software y habilidades en programación, resolución de problemas y aprendizaje continuo.">
+						<span class="font-semibold text-gray-900 dark:text-white"></span> and <span class="font-semibold text-gray-900 dark:text-white"></span>
 					</p>
 					<div class="flex flex-wrap gap-2 sm:gap-3 justify-center px-2 sm:px-0">
 						<a href="/projects" class="cursor-pointer px-4 sm:px-5 py-2 sm:py-2.5 text-sm sm:text-base bg-gray-900 dark:bg-white text-white dark:text-gray-900 font-medium rounded-full hover:animated-bg transition-all" data-en={translations.viewProjects.en} data-es={translations.viewProjects.es}>
@@ -79,7 +79,7 @@ const translations = {
 				</div>
 			</div>
 		</section>
-
+		
 		<section class="max-w-3xl mx-auto py-12 sm:py-16 border-t border-gray-200 dark:border-gray-700 parallax-section fade-in px-2 sm:px-0">
 			<h2 class="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-6 sm:mb-8" data-en={translations.about.en} data-es={translations.about.es}>{translations.about.en}</h2>
 			<div class="space-y-3 sm:space-y-4 text-base sm:text-lg leading-relaxed text-gray-600 dark:text-gray-400" data-en={translations.aboutDesc.en} data-es={translations.aboutDesc.es}>
@@ -87,7 +87,7 @@ const translations = {
 			</div>
 		</section>
 
-		<section class="max-w-3xl mx-auto py-12 sm:py-16 border-t border-gray-200 dark:border-gray-700 parallax-section fade-in px-2 sm:px-0">
+		{/*<section class="max-w-3xl mx-auto py-12 sm:py-16 border-t border-gray-200 dark:border-gray-700 parallax-section fade-in px-2 sm:px-0">
 			<h2 class="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-6 sm:mb-8" data-en={translations.tech.en} data-es={translations.tech.es}>{translations.tech.en}</h2>
 			
 			<div class="tech-ticker-container">
@@ -157,7 +157,7 @@ const translations = {
 					</div>
 				</div>
 			</div>
-		</section>
+		</section>*/}
 	</main>
 
 	<Footer />
@@ -192,3 +192,4 @@ const translations = {
 		});
 	</script>
 </Layout>
+
