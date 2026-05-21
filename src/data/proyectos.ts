@@ -43,7 +43,7 @@ export const proyectos: Proyecto[] = [
 		repoURL: 'https://github.com/EstebanC06/CocoTechSystems',
 		// Sube tus capturas a public/assets/CocoTechSystems/ y agrégalas aquí:
 		images: [
-			'/assets/HeyFood/heyfood.png',
+			'/assets/CocoTechSystems/LOGIN1.jpe',
 			'/assets/CocoTechSystems/REGISTER1.jpeg',
 			'/assets/CocoTechSystems/COCOTECH1.jpeg',
 			'/assets/CocoTechSystems/COCOTECH2.jpeg',
