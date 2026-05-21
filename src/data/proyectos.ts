@@ -43,11 +43,16 @@ export const proyectos: Proyecto[] = [
 		repoURL: 'https://github.com/EstebanC06/CocoTechSystems',
 		// Sube tus capturas a public/assets/CocoTechSystems/ y agrégalas aquí:
 		images: [
-			// '/assets/CocoTechSystems/login.png',
-			// '/assets/CocoTechSystems/catalogo.png',
-			// '/assets/CocoTechSystems/dashboard-admin.png',
-			// '/assets/CocoTechSystems/pos.png',
-			// '/assets/CocoTechSystems/pedidos.png',
+			'/assets/CocoTechSystems/LOGIN1.jpg.jpeg',
+			'/assets/CocoTechSystems/REGISTER1.jpg.jpeg',
+			'/assets/CocoTechSystems/COCOTECH1.jpg.jpeg',
+			'/assets/CocoTechSystems/COCOTECH2.jpg.jpeg',
+			'/assets/CocoTechSystems/ADMIN.jpg.jpeg',
+			'/assets/CocoTechSystems/ADMIN2.jpg.jpeg',
+			'/assets/CocoTechSystems/ORDER.jpg.jpeg',
+			'/assets/CocoTechSystems/PAYMENT2.jpg.jpeg',
+			'/assets/CocoTechSystems/PAYMENT3.jpg.jpeg',
+			'/assets/CocoTechSystems/PAYMENT4.jpg.jpeg',
 		],
 	},
 ];
